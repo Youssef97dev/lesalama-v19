@@ -1,6 +1,7 @@
 {
   "navbar": {
     "home": "Home",
+    "about": "About",
     "restaurant": "Restaurant",
     "menu": "Menu",
     "gallery": "Gallery",
@@ -8,10 +9,11 @@
     "culinary": "Culinary",
     "contact": "Contact",
     "book": "Book",
-    "lang_text": "English",
+    "lang_text": "French",
     "lang_logo": "/english.png",
+    "lang_code": "fr",
     "cart": "Menu",
-    "reservation": "Book"
+    "reservation": "Book a table"
   },
   "about": {
     "title": "Welcome To Le Salama Marrakech",

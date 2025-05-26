@@ -1,6 +1,7 @@
 {
   "navbar": {
     "home": "Accueil",
+    "about": "à propos",
     "restaurant": "Restaurant",
     "menu": "Menu",
     "gallery": "Galerie",
@@ -8,10 +9,11 @@
     "culinary": "Culinaire",
     "contact": "Contact",
     "book": "Réserver",
-    "lang_text": "Français",
+    "lang_text": "Anglais",
     "lang_logo": "/france.png",
+    "lang_code": "en",
     "cart": "La Carte",
-    "reservation": "Réservation"
+    "reservation": "Réserver"
   },
   "about": {
     "title": "Bienvenue au Salama Marrakech",
