@@ -37,7 +37,6 @@ const Shows = () => {
           width={2000}
           alt="le salama restaurant"
           priority
-          style={{ clipPath: "polygon(0 0, 90% 0, 100% 100%, 10% 100%)" }}
           className={`object-cover w-full h-full rounded-md md:hidden block`}
         />
         {/* Filter */}

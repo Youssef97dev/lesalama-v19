@@ -28,7 +28,6 @@ const Culunary = () => {
           width={1000}
           alt="le salama restaurant"
           priority
-          style={{ clipPath: "polygon(10% 0, 100% 0%, 90% 100%, 0% 100%)" }}
           className={`object-cover w-full h-full rounded-md md:hidden block`}
         />
         {/* Filter */}
