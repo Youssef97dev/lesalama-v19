@@ -59,7 +59,10 @@ const Toolbar = ({ gallery = false }) => {
             <Link href="http://wa.me/212675480018" target="_blank">
               <PiWhatsappLogo size={20} />
             </Link>
-            <Link href="#" target="_blank">
+            <Link
+              href="https://www.instagram.com/lesalamamarrakech/"
+              target="_blank"
+            >
               <PiInstagramLogo size={20} />
             </Link>
             <Link
