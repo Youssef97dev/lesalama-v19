@@ -17,7 +17,7 @@ const Loader = () => {
     <>
       {isClient ? (
         <div className="relative">
-          <Toolbar />
+          <Toolbar gallery={true} />
           <Gallery />
         </div>
       ) : (

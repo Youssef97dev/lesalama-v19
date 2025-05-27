@@ -9,7 +9,7 @@ import { RiArrowDropDownFill, RiArrowDropUpFill } from "react-icons/ri";
 import { FaMailBulk } from "react-icons/fa";
 import { PiInstagramLogo, PiWhatsappLogo } from "react-icons/pi";
 
-const Toolbar = () => {
+const Toolbar = ({ gallery = false }) => {
   const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
@@ -142,7 +142,7 @@ const Toolbar = () => {
         </nav>
         <div
           className={`w-full flex justify-between items-end lg:hidden transition-all duration-300 px-3 py-2 ${
-            isVisible ? "bg-transparent" : isOpen ? "bg-primary" : "bg-primary"
+            isVisible && !gallery ? "bg-transparent" : "bg-primary"
           }`}
         >
           <Link href="/">
