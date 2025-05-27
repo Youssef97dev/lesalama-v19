@@ -11,9 +11,9 @@ const Shows = () => {
     >
       <div className=" w-full">
         <div className="w-full h-full flex flex-col justify-center items-start gap-1 lg:p-20 p-2 text-primary">
-          <h1 className="text-[22px] leading-[30px] tracking-[2px] text-secondary font-azahra font-thin mb-2 px-2 2xl:px-12">
+          <b className="text-[22px] leading-[30px] tracking-[2px] text-secondary font-azahra font-thin mb-2 px-2 2xl:px-12">
             {t("events.title")}
-          </h1>
+          </b>
           <p className="text-[14px] text-justify font-light lg:font-normal tracking-wider leading-[28px] px-2 2xl:px-12">
             {t("events.content_1")}
           </p>

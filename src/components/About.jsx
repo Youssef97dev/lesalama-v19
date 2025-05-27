@@ -31,9 +31,9 @@ const About = () => {
       </div>
       <div className=" w-full">
         <div className="w-full h-full flex flex-col justify-center items-start gap-3 lg:p-20 p-2 mt-2 text-primary">
-          <h1 className="text-[22px] leading-[30px] tracking-[2px] font-azahra mb-2 px-2 2xl:px-12 text-secondary">
+          <b className="text-[22px] leading-[30px] tracking-[2px] font-azahra mb-2 px-2 2xl:px-12 text-secondary">
             {t("about.title")}
-          </h1>
+          </b>
           <p className="text-[14px] font-light lg:font-normal text-justify tracking-wider leading-[28px] px-2 2xl:px-12">
             {t("about.content_1")}
           </p>
