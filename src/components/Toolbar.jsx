@@ -129,7 +129,7 @@ const Toolbar = ({ gallery = false }) => {
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="cursor-pointer p-2">
+                <Link href="/contact" className="cursor-pointer p-2">
                   {t("navbar.contact")}
                 </Link>
               </li>
@@ -226,7 +226,7 @@ const Toolbar = ({ gallery = false }) => {
               onClick={() => setIsOpen(false)}
               className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
             >
-              <Link href="#contact">{t("navbar.contact")}</Link>
+              <Link href="/contact">{t("navbar.contact")}</Link>
             </li>
           </ul>
           <div className="w-1/2 flex flex-col justify-center items-center gap-3">
